@@ -22,3 +22,8 @@ Moving over to `bluescreen.html`, this is the starting point for the app when it
 The appearance is defined in `css/app.css`. There are just some very basic rules.
 
 We define the app's behaviour in `js/app.js`. 
+
+## Security
+Need to change `innerHTML` => `textContent`
+
+This way, angle brackents and special chars do not get parsed. They get interpreted as is.
