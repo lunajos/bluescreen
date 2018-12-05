@@ -24,7 +24,7 @@ $(document).ready ( function () {
     function showBlueScreen() {
             showDate();         // Refresh date once clicked
             loadXML(urlMProxy); // Load Blue Screen
-            $("#blue-screen-content").empty();   // Reset
+            $('#blue-screen-content').empty();   // Reset
             $('#blue-screen-content').show();   // Toggle
     }
 
@@ -98,6 +98,8 @@ $(document).ready ( function () {
     function showWaitBuff(state) {
         $('#message-content').show();
         $('#loading-animation').show();
+        // $('#cancelations').attr("disabled", "disabled");
+        // $('#blue-screen').attr("disabled", "disabled");
         switch (state) {
             case 0:
                 state = "Please Wait...";
@@ -120,6 +122,8 @@ $(document).ready ( function () {
                 //document.getElementById('brick').style.width = "100%";
                 $('#message-content').hide();
                 $('#loading-animation').hide();
+                // $("#cancelations").removeAttr("disabled");
+                // $('#blue-screen').removeAttr('disabled');
                 break;
         }
             document.getElementById('message-content').innerHTML = state;

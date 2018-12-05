@@ -1,0 +1,55 @@
+{
+  "version": "0.1.0",
+  "name": "Blue Screen",
+  "short_name": "BS"
+  "display": "standalone",
+  "background_color": "red",
+  "description": "Blue Screen and Cancelation Kiosk Messages for Penn State Wilkes Barre",
+  "launch_path": "./bluescreen.html",
+  "icons": [
+    {
+      "src": "img/icons/icon-72x72.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "img/icons/icon-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "img/icons/icon-128x128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "img/icons/icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "img/icons/icon-152x152.png",
+      "sizes": "152x152",
+      "type": "image/png"
+    },
+    {
+      "src": "img/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "img/icons/icon-384x384.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+  "developer": {
+    "name": "Jose L",
+    "url": "http://personal.psu.edu/jal6156/bluescreen.html"
+  },
+  "type": "web",
+  "permissions": {},
+  "installs_allowed_from": [
+    "*"
+  ],
+  "default_locale": "en"
+}
