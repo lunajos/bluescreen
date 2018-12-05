@@ -7,10 +7,9 @@ There are a few ways to get this template:
 
 If you use [Git](http://www.git-scm.com/):
 
-# FIX ME
 
 ````bash
-git clone https://github.com/lunajos/FIXME.git
+git clone https://github.com/lunajos/bluescreen.git
 ````
 
 
